@@ -3,6 +3,8 @@ if [ $# -eq 0 ]
   then
     echo "mywatch ver 1.0"
     echo "by Amir Mofakhar <amir@mofakhar.info>"
+    echo "this is aan alternative watch command for Mac system."
+    echo "copy it in /usr/local/bin/"
     echo
     echo "    syntax : mywatch <comman> <optional time>"
 else
