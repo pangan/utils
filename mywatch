@@ -1,0 +1,16 @@
+#!/bin/bash
+if [ $# -eq 0 ]
+  then
+    echo "mywatch ver 1.0"
+    echo "by Amir Mofakhar <amir@mofakhar.info>"
+    echo
+    echo "    syntax : mywatch <comman> <optional time>"
+else
+  time=1
+  if [ -n "$2" ]
+    then
+      time=$2  
+  fi
+ 
+  while :; do clear; $1; sleep $time; done
+fi
